@@ -18,15 +18,15 @@ function cambiarContenidoPorIdioma(idioma) {
   const subtitulo = document.querySelector('h2');
 
   if (idioma === 'es') {
-    if (titulo) titulo.textContent = 'Hola, soy Mauricio Angulo';
-    if (subtitulo) subtitulo.textContent = 'Desarrollo sitios web y brindo mantenimiento virtual a equipos de computo.';
+    if (titulo) titulo.textContent = 'No Repeats solutions';
+    if (subtitulo) subtitulo.textContent = 'Desarrollo de sitios web y mantenimiento virtual a equipos de computo.';
   } else if (idioma === 'en') {
-    if (titulo) titulo.textContent = 'Hello, I am Mauricio Angulo';
+    if (titulo) titulo.textContent = 'No Repeats solutions';
     if (subtitulo) subtitulo.textContent = 'I develop websites and provide virtual maintenance for computers.';
   } else {
     // Idioma por defecto o para otros idiomas
-    if (titulo) titulo.textContent = 'Hola, soy Mauricio Angulo';
-    if (subtitulo) subtitulo.textContent = 'Desarrollo sitios web y brindo mantenimiento virtual a equipos de computo.';
+    if (titulo) titulo.textContent = 'No Repeats solutions';
+    if (subtitulo) subtitulo.textContent = 'Desarrollo de sitios web y mantenimiento virtual a equipos de computo.';
   }
 }
 
